@@ -50,4 +50,6 @@ int main(void)
         printf("%d ", list[i]);
     }
     printf("\n");
+
+    return 0;
 }
