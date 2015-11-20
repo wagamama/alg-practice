@@ -21,7 +21,7 @@ class binary_heap(object):
                 self.swap(i, i//2)
             else:
                 break
-            i // 2
+            i = i // 2
 
     def percDown(self, i):
         while i*2 <= self.current_size:
